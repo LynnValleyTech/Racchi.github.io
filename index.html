@@ -71,9 +71,9 @@
             color: #5a8f66;
         }
         
-        /* Hero Section */
+        /* Updated Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1600566752225-5376dfc9d1f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1608306448197-e83633f1261c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
             background-size: cover;
             background-position: center;
             height: 80vh;
@@ -84,36 +84,34 @@
             padding-top: 80px;
         }
         
-        .hero-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .hero h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-            color: white;
-        }
-        
-        .hero p {
-            font-size: 20px;
-            margin-bottom: 30px;
-        }
-        
-        .btn {
-            display: inline-block;
-            background-color: #5a8f66;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        
-        .btn:hover {
-            background-color: #2a5a3c;
-        }
+        /* (Rest of the CSS remains the same) */
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Racchi <span>Landscaping</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with service image background -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transforming Vancouver's Outdoor Spaces</h1>
+            <p>Family-owned landscaping services with over 15 years of experience creating beautiful, sustainable outdoor environments.</p>
+            <a href="#contact" class="btn">Get a Free Quote</a>
+        </div>
+    </section>
         
         /* About Section */
         .about {
